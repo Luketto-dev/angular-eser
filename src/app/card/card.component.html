@@ -1,0 +1,8 @@
+
+<div class="card flex justify-content-center w-full h-full">
+    <p-card header={{comic!.title}} subheader={{comic!.series}} [style]="{ width: '100%'}" class="w-full h-full">
+        <ng-template pTemplate="header">
+            <img alt="Card" [src]=comic!.thumb />
+        </ng-template>
+    </p-card>
+</div>

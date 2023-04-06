@@ -1,0 +1,8 @@
+<div class="w-9 m-auto pt-6 pb-6">
+  <h1 class="text-center">I nostri fumetti</h1>
+  <div class="grid">
+    <div class="col-3" *ngFor="let comic of comics">
+      <app-card [comic] = 'comic' class="w-full h-full block"></app-card>
+    </div>
+  </div>
+</div>

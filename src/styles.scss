@@ -1,2 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
-@import '/node_modules/primeflex/primeflex.scss'
+@import 'primeflex/primeflex.css';
+
+body{
+    margin: 0;
+    
+}
+
+*{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
